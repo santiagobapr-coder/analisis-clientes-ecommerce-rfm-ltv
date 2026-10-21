@@ -49,10 +49,10 @@ python analysis.py                     # ejecuta queries.sql, exporta CSV y gene
 
 ## Gráficos
 
-![Ingresos mensuales](graficos/ingresos_mensuales.png)
-![Segmentos RFM](graficos/segmentos_rfm.png)
-![Retención por cohorte](graficos/retencion_cohortes.png)
-![LTV por cohorte](graficos/ltv_cohortes.png)
+![Ingresos mensuales](ingresos_mensuales.png)
+![Segmentos RFM](segmentos_rfm.png)
+![Retención por cohorte](retencion_cohortes.png)
+![LTV por cohorte](ltv_cohortes.png)
 
 ## Decisiones de negocio que sugiere el análisis
 
@@ -73,4 +73,4 @@ python analysis.py                     # ejecuta queries.sql, exporta CSV y gene
 - `prep.py`: limpieza y creación de la base SQLite.
 - `queries.sql`: 9 consultas con CTEs, funciones de ventana, `CASE` y fechas.
 - `analysis.py`: ejecuta las consultas, exporta CSV y genera los gráficos.
-- `graficos/`: imágenes usadas en este README.
+- `ingresos_mensuales.png`, `segmentos_rfm.png`, `retencion_cohortes.png`, `ltv_cohortes.png`: imágenes usadas en este README.
